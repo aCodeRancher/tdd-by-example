@@ -20,7 +20,8 @@ public class Sum implements Expression {
 
     @Override
     public Expression plus(Expression addend) {
-        return new Sum(this, addmend);
+
+        return new Sum(this, addend);
     }
 
     @Override
